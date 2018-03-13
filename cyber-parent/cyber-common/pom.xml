@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.cybertech</groupId>
+    <artifactId>cyber-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>  
+  <properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <artifactId>cyber-common</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>cyber-common-service</module>
+    <module>cyber-common-utils</module>
+    <module>cyber-common-api</module>
+    <module>cyber-common-redis</module>
+    <module>cyber-common-web</module>
+  </modules>
+</project>
